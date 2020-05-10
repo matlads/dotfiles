@@ -1,0 +1,20 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.vim: vim
+    ~/.psqlrc: postgresql/psqlrc
+
+- create:
+    - ~/Downloads
+    - ~/Work/personal
+    - ~/Work/afriadd
+    - ~/Work/ebs
+    - ~/Work/andela
+    - ~/.vim/undo-history
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
