@@ -1,0 +1,63 @@
+directory: ~/Music
+log: ~/.local/log/beets.log
+library: ~/.local/share/beets/library.db
+
+import:
+  move: yes
+
+plugins:
+  acousticbrainz
+  badfiles
+  chroma
+  convert
+  discogs
+  duplicates
+  edit
+  embedart
+  fetchart
+  ftintitle
+  info
+  importadded
+  lyrics
+  lastgenre
+  mbcollection
+  mbsync
+  missing
+  play
+  random
+  scrub
+  web
+  ydl
+  zero
+
+chroma:
+  auto: no
+
+discogs:
+  user_token: ITyPQOtMooHylPbxWReOVleFXDSHWwzujXqxcFiO
+
+web:
+  cors: "*"
+
+lastgenre:
+  count: 3
+
+lasfm:
+  user: matlads
+
+musicbrainz:
+  user: matlads
+  pass: mart99
+
+ui:
+  color: yes
+
+convert:
+  auto: false
+
+zero:
+  keep_fields: title artist album year track genre images genres
+
+
+# play:
+#  command: /Applications/VLC.app/Contents/MacOS/VLC --no-video
