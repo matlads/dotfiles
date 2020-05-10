@@ -4,6 +4,7 @@ library: ~/.local/share/beets/library.db
 
 import:
   move: yes
+  write: yes
 
 plugins:
   acousticbrainz
@@ -16,10 +17,10 @@ plugins:
   embedart
   fetchart
   ftintitle
-  info
   importadded
-  lyrics
+  info
   lastgenre
+  lyrics
   mbcollection
   mbsync
   missing
@@ -31,7 +32,7 @@ plugins:
   zero
 
 chroma:
-  auto: no
+  auto: yes
 
 discogs:
   user_token: ITyPQOtMooHylPbxWReOVleFXDSHWwzujXqxcFiO
@@ -63,5 +64,5 @@ zero:
 #  command: /Applications/VLC.app/Contents/MacOS/VLC --no-video
 
 # To install all the dependencies of this config install the following packages:
-# apt install python3-flask python3-flask-cors python3-pylast python3-acoustid python3-pip youtube-dl
+# apt install python3-flask python3-flask-cors python3-pylast python3-acoustid python3-pip youtube-dl mp3val flac ffmpeg imagemagick python3-requests 
 # pip3 install --user beets-ydl discogs_client
