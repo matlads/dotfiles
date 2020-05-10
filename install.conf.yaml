@@ -8,6 +8,7 @@
     ~/.vim: vim
     ~/.psqlrc: postgresql/psqlrc
     ~/.gitconfig: git/gitconfig
+    ~/.config/beets/config.yaml: beets/config.yaml
 
 - create:
     - ~/Downloads
@@ -15,7 +16,8 @@
     - ~/Work/afriadd
     - ~/Work/ebs
     - ~/Work/andela
-    - ~/.vim/undo-history
+    - ~/.local/log
+    - ~/.local/share/beets
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
