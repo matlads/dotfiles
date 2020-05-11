@@ -9,6 +9,7 @@
     ~/.psqlrc: postgresql/psqlrc
     ~/.gitconfig: git/gitconfig
     ~/.config/beets/config.yaml: beets/config.yaml
+    ~/.irssi/config: irssi/config
 
 - create:
     - ~/Downloads
