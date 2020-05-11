@@ -24,3 +24,6 @@
 [submodule "vim/pack/plugins/start/ale"]
 	path = vim/pack/plugins/start/ale
 	url = https://github.com/w0rp/ale
+[submodule "vim/pack/plugins/start/vim-trailing-whitespace"]
+	path = vim/pack/plugins/start/vim-trailing-whitespace
+	url = git@github.com:bronson/vim-trailing-whitespace.git
