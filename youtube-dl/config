@@ -2,3 +2,4 @@
 --sub-lang en
 --write-auto-sub
 --convert-subs srt
+--format 'bestvideo+bestaudio[ext=m4a]'
