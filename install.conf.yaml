@@ -11,6 +11,7 @@
     ~/.config/beets/config.yaml: beets/config.yaml
     ~/.config/youtube-dl/config: youtube-dl/config
     ~/.irssi/config: irssi/config
+    ~/.todo-txt: todo-txt
 
 - create:
     - ~/Downloads
