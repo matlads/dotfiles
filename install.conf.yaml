@@ -12,6 +12,7 @@
     ~/.config/youtube-dl/config: youtube-dl/config
     ~/.irssi/config: irssi/config
     ~/.todo-txt: todo-txt
+    ~/.opensubtitles_downloader: opensubtitles_downloader
 
 - create:
     - ~/Downloads
