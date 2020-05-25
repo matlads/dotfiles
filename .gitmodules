@@ -30,3 +30,21 @@
 [submodule "vim/pack/plugins/start/vim-orgmode"]
 	path = vim/pack/plugins/start/vim-orgmode
 	url = https://github.com/jceb/vim-orgmode
+[submodule "vim/pack/plugins/start/vim-speeddating"]
+	path = vim/pack/plugins/start/vim-speeddating
+	url = https://github.com/tpope/vim-speeddating.git
+[submodule "vim/pack/plugins/start/vim-repeat"]
+	path = vim/pack/plugins/start/vim-repeat
+	url = https://github.com/tpope/vim-repeat
+[submodule "vim/pack/plugins/start/calendar-vim"]
+	path = vim/pack/plugins/start/calendar-vim
+	url = https://github.com/mattn/calendar-vim
+[submodule "vim/pack/plugins/start/SyntaxRange"]
+	path = vim/pack/plugins/start/SyntaxRange
+	url = https://github.com/vim-scripts/SyntaxRange.git
+[submodule "vim/pack/plugins/start/tagbar"]
+	path = vim/pack/plugins/start/tagbar
+	url = https://github.com/majutsushi/tagbar.git
+[submodule "vim/pack/plugins/start/taglist"]
+	path = vim/pack/plugins/start/taglist
+	url = https://github.com/yegappan/taglist.git
