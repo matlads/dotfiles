@@ -139,7 +139,7 @@ chatnets = {
     max_msgs = "1";
     max_whois = "1";
   };
-  IRCHighway = { type = "IRC"; };
+  IRCHighway = { type = "IRC"; max_kicks = "1"; max_msgs = "20"; max_whois = "1"; };
 };
 
 channels = (
