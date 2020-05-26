@@ -13,6 +13,7 @@
     ~/.irssi/config: irssi/config
     ~/.todo-txt: todo-txt
     ~/.opensubtitles_downloader: opensubtitles_downloader
+    ~/.rtorrent.rc: rtorrent.rc
 
 - create:
     - ~/Downloads
@@ -22,6 +23,7 @@
     - ~/Work/andela
     - ~/.local/log
     - ~/.local/share/beets
+    - ~/rtorrent
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
