@@ -6,6 +6,7 @@
 
 - link:
     ~/.vim: vim
+    ~/.vimrc: vimrc
     ~/.psqlrc: postgresql/psqlrc
     ~/.gitconfig: git/gitconfig
     ~/.config/beets/config.yaml: beets/config.yaml
@@ -23,7 +24,7 @@
     - ~/Work/andela
     - ~/.local/log
     - ~/.local/share/beets
-    - ~/rtorrent
+    - ~/rtorrent/config.d
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
