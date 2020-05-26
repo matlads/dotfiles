@@ -67,6 +67,9 @@ servers = (
     address = "irc.irchighway.net";
     chatnet = "IRCHighway";
     port = "6667";
+    use_tls = "no";
+    tls_verify = "no";
+    autoconnect = "yes";
   }
 );
 
@@ -139,7 +142,12 @@ chatnets = {
     max_msgs = "1";
     max_whois = "1";
   };
-  IRCHighway = { type = "IRC"; max_kicks = "1"; max_msgs = "20"; max_whois = "1"; };
+  IRCHighway = {
+    type = "IRC";
+    max_kicks = "1";
+    max_msgs = "20";
+    max_whois = "1";
+  };
 };
 
 channels = (
@@ -314,4 +322,9 @@ settings = {
     nick = "matlads";
   };
   "fe-text" = { actlist_sort = "refnum"; };
+  "irc/dcc" = {
+    dcc_autoget = "yes";
+    dcc_autoresume = "yes";
+    dcc_download_path = "~/Downloads";
+  };
 };
