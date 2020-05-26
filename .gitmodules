@@ -48,3 +48,12 @@
 [submodule "vim/pack/plugins/start/taglist"]
 	path = vim/pack/plugins/start/taglist
 	url = https://github.com/yegappan/taglist.git
+[submodule "vim/pack/plugins/start/semshi"]
+	path = vim/pack/plugins/start/semshi
+	url = https://github.com/numirias/semshi
+[submodule "vim/pack/plugins/start/coc"]
+	path = vim/pack/plugins/start/coc
+	url = https://github.com/neoclide/coc.nvim
+[submodule "vim/pack/plugins/start/coc-python"]
+	path = vim/pack/plugins/start/coc-python
+	url = https://github.com/neoclide/coc-python
