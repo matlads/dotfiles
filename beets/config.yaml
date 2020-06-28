@@ -20,7 +20,6 @@ plugins:
   importadded
   info
   lastgenre
-  lyrics
   mbcollection
   mbsync
   missing
@@ -30,6 +29,7 @@ plugins:
   web
   ydl
   zero
+# lyrics
 
 chroma:
   auto: yes
