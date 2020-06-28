@@ -1,5 +1,2 @@
+--default-search ytsearch
 --audio-format mp3
---sub-lang en
---write-auto-sub
---convert-subs srt
---format 'bestvideo+bestaudio[ext=m4a]'
