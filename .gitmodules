@@ -54,3 +54,6 @@
 [submodule "vim/pack/plugins/start/coc-python"]
 	path = vim/pack/plugins/start/coc-python
 	url = https://github.com/neoclide/coc-python
+[submodule "vim/pack/local/start/editorconfig-vim"]
+	path = vim/pack/local/start/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim.git
