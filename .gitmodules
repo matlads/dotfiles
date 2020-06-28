@@ -42,12 +42,14 @@
 [submodule "vim/pack/plugins/start/SyntaxRange"]
 	path = vim/pack/plugins/start/SyntaxRange
 	url = https://github.com/vim-scripts/SyntaxRange.git
+	ignore = dirty
 [submodule "vim/pack/plugins/start/tagbar"]
 	path = vim/pack/plugins/start/tagbar
 	url = https://github.com/majutsushi/tagbar.git
 [submodule "vim/pack/plugins/start/taglist"]
 	path = vim/pack/plugins/start/taglist
 	url = https://github.com/yegappan/taglist.git
+	ignore = dirty
 [submodule "vim/pack/plugins/start/coc"]
 	path = vim/pack/plugins/start/coc
 	url = https://github.com/neoclide/coc.nvim
