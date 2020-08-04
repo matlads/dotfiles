@@ -17,6 +17,8 @@
     ~/.rtorrent.rc: rtorrent.rc
     ~/.screenrc: screenrc
     ~/.mutt/muttrc: mutt/muttrc
+    ~/.mutt/gpg.rc: mutt/gpg.rc
+    ~/.signature: signature
 
 - create:
     - ~/Downloads
