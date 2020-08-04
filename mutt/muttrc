@@ -26,3 +26,6 @@ alias laura Laura Musoke <laura.elle@outlook.com>
 source ~/.mutt/gpg.rc
 set send_charset="utf-8"
 set signature="~/.signature"
+set mailcap_path="~/.mutt/mailcap"
+auto_view text/html
+alternative_order text/plain text/html
