@@ -21,3 +21,8 @@ unset use_domain        # because joe@localhost is just embarrassing
 set realname = "Martin Atukunda"
 set from = "matlads@gmail.com"
 set use_from = yes
+alias laura Laura Musoke <laura.elle@outlook.com>
+
+source ~/.mutt/gpg.rc
+set send_charset="utf-8"
+set signature="~/.signature"
