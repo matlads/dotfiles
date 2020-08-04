@@ -15,7 +15,8 @@
     ~/.todo-txt: todo-txt
     ~/.opensubtitles_downloader: opensubtitles_downloader
     ~/.rtorrent.rc: rtorrent.rc
-    ~/.bashrc: bash/bashrc
+    ~/.screenrc: screenrc
+    ~/.mutt/muttrc: mutt/muttrc
 
 - create:
     - ~/Downloads
@@ -29,6 +30,8 @@
     - ~/.local/log
     - ~/.local/share/beets
     - ~/rtorrent/config.d
+    - ~/.mutt/cache/headers
+    - ~/.mutt/cache/bodies
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
