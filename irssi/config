@@ -144,6 +144,7 @@ chatnets = {
   };
   IRCHighway = {
     type = "IRC";
+    autosendcmd = "/^msg NickServ IDENTIFY mart99;wait 3000";
     max_kicks = "1";
     max_msgs = "20";
     max_whois = "1";
@@ -153,6 +154,7 @@ chatnets = {
 channels = (
   { name = "#lobby"; chatnet = "EsperNet"; autojoin = "No"; },
   { name = "#freenode"; chatnet = "Freenode"; autojoin = "No"; },
+  { name = "#beets"; chatnet = "Freenode"; autojoin = "No"; },
   { name = "#irssi"; chatnet = "Freenode"; autojoin = "No"; },
   { name = "#gamesurge"; chatnet = "GameSurge"; autojoin = "No"; },
   { name = "#irssi"; chatnet = "IRCNet"; autojoin = "No"; },
@@ -320,11 +322,16 @@ settings = {
     real_name = "Martin Atukunda";
     user_name = "matlads";
     nick = "matlads";
+    timestamp_format = "%H:%M";
   };
   "fe-text" = { actlist_sort = "refnum"; };
   "irc/dcc" = {
     dcc_autoget = "yes";
     dcc_autoresume = "yes";
     dcc_download_path = "~/Downloads";
+  };
+  "perl/core/scripts" = {
+    twitter_usernames = "matlads";
+    twitter_update_usernames = "matlads";
   };
 };
