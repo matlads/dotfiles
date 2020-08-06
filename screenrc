@@ -139,11 +139,17 @@ screen -t local 0
 screen -t mutt  1 mutt
 screen -t irssi 2 irssi
 screen -t htop  3 htop
+screen -t ncmpc 4 ncmpcpp
 # screen -t 40 2 rlogin server
 
 # caption always "%3n %t%? @%u%?%? [%h]%?%=%c"
 # hardstatus alwaysignore
 # hardstatus alwayslastline "%Lw"
+#change the hardstatus settings to give an window list at the bottom of the
+#screen, with the time and date and with the current window highlighted
+hardstatus alwayslastline
+##hardstatus string '%{= kG}%-Lw%{= kW}%50> %n%f* %t%{= kG}%+Lw%< %{= kG}%-=%c:%s%{-}'
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %m-%d %{W}%c %{g}]'
 
 # bind = resize =
 # bind + resize +1
