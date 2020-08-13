@@ -6,7 +6,8 @@ let skip_defaults_vim=1
 
 set nocompatible
 set backspace=2
-set mouse=
+set mouse=a
+set modelines=0
 syntax on
 if (&term == "xterm") || (&term == "putty")
   set background=dark
@@ -15,12 +16,83 @@ endif
 packloadall
 silent! helptags ALL
 
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab
+
+set encoding=utf-8
+set scrolloff=3
+set autoindent
+set showmode
+set showcmd
+set wildmenu
+set wildmode=list:longest
+set visualbell
+set cursorline
+set ttyfast
+set ruler
+set backspace=indent,eol,start
+set laststatus=2
+set relativenumber
+set undofile
+
+let mapleader = ","
+
+" Tame searching/moving
+nnoremap / /\v
+vnoremap / /\v
+set ignorecase
+set smartcase
+set gdefault
+" incsearch maybe set (conditionally) in default.vim. set it again by force
+set incsearch
+set showmatch
+set hlsearch
+nnoremap <leader><space> :noh<cr>
+nnoremap <tab> %
+vnoremap <tab> %
+
+" Make vim handle long lines nicely
+set wrap
+set textwidth=79
+set formatoptions=qrn1
+set colorcolumn=85
+
+" For TextMate refugees
+"set list
+"set listchars=tab:▸\ ,eol:¬
+
+" For new vim users, these force you to learn to do things the right way
+" No arrow keys while in normal and insert mode
+nnoremap <up> <nop>
+nnoremap <down> <nop>
+nnoremap <left> <nop>
+nnoremap <right> <nop>
+inoremap <up> <nop>
+inoremap <down> <nop>
+inoremap <left> <nop>
+inoremap <right> <nop>
+nnoremap j gj
+nnoremap k gk
+
+" F1 has no power here
+inoremap <F1> <ESC>
+nnoremap <F1> <ESC>
+vnoremap <F1> <ESC>
+
+" Make ; do the same as :
+nnoremap ; :
+
 " TextEdit might fail if hidden is not set
 set hidden
 
 " Some servers have issues with backup files
 set nobackup
 set nowritebackup
+
+set backupdir=~/.vim/tmp//,.
+set directory=~/.vim/tmp//,.
 
 " Give more space for displaying messages
 set cmdheight=2
@@ -197,6 +269,7 @@ augroup encrypted
 	autocmd BufWritePost,FileWritePost  *.gpg set nobin
 augroup END
 
+" Save when we lose focus
+au FocusLost * :wa
+
 " End /etc/vimrc
-"
-"
