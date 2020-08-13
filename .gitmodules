@@ -63,5 +63,5 @@
 	path = bash/bash-git-prompt
 	url = https://github.com/magicmonty/bash-git-prompt.git
 [submodule "vim/pack/plugins/vim-snippets"]
-	path = vim/pack/plugins/vim-snippets
+	path = vim/pack/plugins/start/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
