@@ -22,6 +22,7 @@
     ~/.mutt/mailcap: mutt/mailcap
     ~/.signature: signature
     ~/.bash-git-prompt: bash/bash-git-prompt
+    ~/.local/bin/batstatus: batstatus
 
 - create:
     - ~/Downloads
@@ -32,6 +33,7 @@
     - ~/.config/beets
     - ~/.config/youtube-dl
     - ~/.irssi
+    - ~/.local/bin
     - ~/.local/log
     - ~/.local/share/beets
     - ~/rtorrent/config.d

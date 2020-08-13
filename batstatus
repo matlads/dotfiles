@@ -1,0 +1,10 @@
+#!/bin/bash
+trem=$( acpi | cut -d" " -f5 )
+blif=$( upower -d | \
+        awk '$1 == "percentage:" { power=substr($2, 0, index($2, "%")); \
+        if (power < 20) { color="\005{..r}"; } \
+        else if (power < 40) { color="\005{..y}"; } \
+        else { color="\005{..g}";} \
+        printf "%s%d\n",color,power; exit}' )
+echo "$blif%, $trem"
+
