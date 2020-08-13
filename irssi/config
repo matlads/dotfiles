@@ -335,3 +335,26 @@ settings = {
     twitter_update_usernames = "matlads";
   };
 };
+windows = {
+  1 = { immortal = "yes"; name = "(status)"; level = "ALL"; };
+  2 = { name = "autodl"; };
+  3 = { name = "twitter"; };
+  4 = {
+    items = (
+      {
+        type = "CHANNEL";
+        chat_type = "IRC";
+        name = "#ebooks";
+        tag = "IRCHighway";
+      }
+    );
+  };
+};
+mainwindows = {
+  2 = { 
+    first_line = "1";
+    lines = "55";
+    first_column = "0";
+    columns = "210";
+  };
+};
