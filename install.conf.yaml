@@ -39,6 +39,10 @@
     - ~/rtorrent/config.d
     - ~/.mutt/cache/headers
     - ~/.mutt/cache/bodies
+    - ~/rtorrent/watch/load
+    - ~/rtorrent/watch/start
+    - ~/rtorrent/config.d
+    - ~/rtorrent/download
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
