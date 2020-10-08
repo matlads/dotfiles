@@ -23,6 +23,7 @@
     ~/.signature: signature
     ~/.bash-git-prompt: bash/bash-git-prompt
     ~/.local/bin/batstatus: batstatus
+    ~/.pyenv: pyenv
 
 - create:
     - ~/Downloads

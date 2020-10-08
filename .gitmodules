@@ -65,3 +65,6 @@
 [submodule "vim/pack/plugins/vim-snippets"]
 	path = vim/pack/plugins/start/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
+[submodule "pyenv"]
+	path = pyenv
+	url = https://github.com/pyenv/pyenv.git
