@@ -50,9 +50,6 @@
 	path = vim/pack/plugins/start/taglist
 	url = https://github.com/yegappan/taglist.git
 	ignore = dirty
-[submodule "vim/pack/plugins/start/coc"]
-	path = vim/pack/plugins/start/coc
-	url = https://github.com/neoclide/coc.nvim
 [submodule "vim/pack/plugins/start/coc-python"]
 	path = vim/pack/plugins/start/coc-python
 	url = https://github.com/neoclide/coc-python
@@ -68,3 +65,6 @@
 [submodule "pyenv"]
 	path = pyenv
 	url = https://github.com/pyenv/pyenv.git
+[submodule "vim/pack/plugins/start/vim-javascript"]
+	path = vim/pack/plugins/start/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
