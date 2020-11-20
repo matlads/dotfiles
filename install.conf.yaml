@@ -24,6 +24,7 @@
     ~/.bash-git-prompt: bash/bash-git-prompt
     ~/.local/bin/batstatus: batstatus
     ~/.pyenv: pyenv
+    ~/.ctags: ctags
 
 - create:
     - ~/Downloads
