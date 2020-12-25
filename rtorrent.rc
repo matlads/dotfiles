@@ -1,5 +1,5 @@
 # Default directory to save the downloaded torrents.
-directory.default.set = /home/matlads/Downloads/
+directory.default.set = /home/matlads/Downloads/rtorrent/
 
 # Default session directory. When restarting rtorrent, the torrents from this directory will be restarted.
 session.path.set = /home/matlads/.rtorrent/session

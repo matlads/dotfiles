@@ -28,6 +28,7 @@
 
 - create:
     - ~/Downloads
+    - ~/Downloads/rtorrent
     - ~/Work/personal
     - ~/Work/afriadd
     - ~/Work/ebs
