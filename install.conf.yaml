@@ -20,7 +20,8 @@
     ~/.mutt/gpg.rc: mutt/gpg.rc
     ~/.mutt/macros: mutt/macros
     ~/.mutt/mailcap: mutt/mailcap
-    ~/.signature: signature
+    ~/.signature: signatures/afriadd.signatures
+    ~/.signatures: signatures
     ~/.bash-git-prompt: bash/bash-git-prompt
     ~/.local/bin/batstatus: batstatus
     ~/.pyenv: pyenv
@@ -46,6 +47,7 @@
     - ~/rtorrent/watch/start
     - ~/rtorrent/config.d
     - ~/rtorrent/download
+    - ~/.signatures
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
