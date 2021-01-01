@@ -1,3 +1,5 @@
 [user]
 	name = Martin Atukunda
 	email = matlads@gmail.com
+[pull]
+	rebase = false
