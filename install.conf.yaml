@@ -20,12 +20,13 @@
     ~/.mutt/gpg.rc: mutt/gpg.rc
     ~/.mutt/macros: mutt/macros
     ~/.mutt/mailcap: mutt/mailcap
-    ~/.signature: signatures/afriadd.signatures
+    ~/.signature:  signatures/afriadd.signature
     ~/.signatures: signatures
     ~/.bash-git-prompt: bash/bash-git-prompt
     ~/.local/bin/batstatus: batstatus
     ~/.pyenv: pyenv
     ~/.ctags: ctags
+    ~/.irssi: irssi
 
 - create:
     - ~/Downloads
