@@ -163,6 +163,7 @@ channels = (
   { name = "#oftc"; chatnet = "OFTC"; autojoin = "No"; },
   { name = "silc"; chatnet = "SILC"; autojoin = "No"; },
   { name = "#ebooks"; chatnet = "IRCHighway"; autojoin = "yes"; }
+  { name = "#tv-hub"; chatnet = "IRCHighway"; autojoin = "yes"; }
 );
 
 aliases = {
