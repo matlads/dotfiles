@@ -4,82 +4,82 @@
 	ignore = dirty
 
 [submodule "nerdtree-git-plugin"]
-	path = vim/pack/plugins/stop/nerdtree-git-plugin
+	path = vim/pack/plugins/all/nerdtree-git-plugin
 	url = https://github.com/Xuyuanp/nerdtree-git-plugin
 [submodule "vim/pack/plugins/start/nerdtree"]
-	path = vim/pack/plugins/stop/nerdtree
+	path = vim/pack/plugins/all/nerdtree
 	url = https://github.com/scrooloose/nerdtree
 [submodule "vim/pack/plugins/start/vim-fugitive"]
-	path = vim/pack/plugins/stop/vim-fugitive
+	path = vim/pack/plugins/all/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
 [submodule "vim/pack/plugins/start/vim-airline"]
 	path = vim/pack/plugins/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline
 [submodule "vim/pack/plugins/start/vim-gitgutter"]
-	path = vim/pack/plugins/stop/vim-gitgutter
+	path = vim/pack/plugins/all/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter
 [submodule "vim/pack/plugins/start/ctrlp.vim"]
-	path = vim/pack/plugins/stop/ctrlp.vim
+	path = vim/pack/plugins/all/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim
 [submodule "vim/pack/plugins/start/ale"]
-	path = vim/pack/plugins/stop/ale
+	path = vim/pack/plugins/all/ale
 	url = https://github.com/w0rp/ale
 [submodule "vim/pack/plugins/start/vim-trailing-whitespace"]
-	path = vim/pack/plugins/stop/vim-trailing-whitespace
+	path = vim/pack/plugins/all/vim-trailing-whitespace
 	url = git@github.com:bronson/vim-trailing-whitespace.git
 [submodule "vim/pack/plugins/start/vim-orgmode"]
-	path = vim/pack/plugins/stop/vim-orgmode
+	path = vim/pack/plugins/all/vim-orgmode
 	url = https://github.com/jceb/vim-orgmode
 [submodule "vim/pack/plugins/start/vim-speeddating"]
-	path = vim/pack/plugins/stop/vim-speeddating
+	path = vim/pack/plugins/all/vim-speeddating
 	url = https://github.com/tpope/vim-speeddating.git
 [submodule "vim/pack/plugins/start/vim-repeat"]
-	path = vim/pack/plugins/stop/vim-repeat
+	path = vim/pack/plugins/all/vim-repeat
 	url = https://github.com/tpope/vim-repeat
 [submodule "vim/pack/plugins/start/calendar-vim"]
-	path = vim/pack/plugins/stop/calendar-vim
+	path = vim/pack/plugins/all/calendar-vim
 	url = https://github.com/mattn/calendar-vim
 [submodule "vim/pack/plugins/start/SyntaxRange"]
-	path = vim/pack/plugins/stop/SyntaxRange
+	path = vim/pack/plugins/all/SyntaxRange
 	url = https://github.com/vim-scripts/SyntaxRange.git
 	ignore = dirty
 [submodule "vim/pack/plugins/start/tagbar"]
-	path = vim/pack/plugins/stop/tagbar
+	path = vim/pack/plugins/all/tagbar
 	url = https://github.com/majutsushi/tagbar.git
 [submodule "vim/pack/plugins/start/taglist"]
-	path = vim/pack/plugins/stop/taglist
+	path = vim/pack/plugins/all/taglist
 	url = https://github.com/yegappan/taglist.git
 	ignore = dirty
 [submodule "vim/pack/plugins/start/coc-python"]
-	path = vim/pack/plugins/stop/coc-python
+	path = vim/pack/plugins/all/coc-python
 	url = https://github.com/neoclide/coc-python
 [submodule "vim/pack/plugins/start/editorconfig-vim"]
-	path = vim/pack/plugins/stop/editorconfig-vim
+	path = vim/pack/plugins/all/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
 [submodule "bash/bash-git-prompt"]
 	path = bash/bash-git-prompt
 	url = https://github.com/magicmonty/bash-git-prompt.git
 [submodule "vim/pack/plugins/vim-snippets"]
-	path = vim/pack/plugins/stop/vim-snippets
+	path = vim/pack/plugins/all/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
 [submodule "pyenv"]
 	path = pyenv
 	url = https://github.com/pyenv/pyenv.git
 [submodule "vim/pack/plugins/start/vim-javascript"]
-	path = vim/pack/plugins/stop/vim-javascript
+	path = vim/pack/plugins/all/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
 [submodule "vim/pack/tpope/start/fugitive"]
 	path = vim/pack/plugins/start/fugitive
 	url = https://github.com/tpope/vim-fugitive.git
 [submodule "vim/pack/tpope/start/repeat"]
-	path = vim/pack/plugins/stop/repeat
+	path = vim/pack/plugins/all/repeat
 	url = https://github.com/tpope/vim-repeat.git
 [submodule "vim/pack/tpope/start/surround"]
-	path = vim/pack/plugins/stop/surround
+	path = vim/pack/plugins/all/surround
 	url = https://github.com/tpope/vim-surround.git
 [submodule "vim/pack/tpope/start/unimpaired"]
-	path = vim/pack/plugins/stop/unimpaired
+	path = vim/pack/plugins/all/unimpaired
 	url = https://github.com/tpope/vim-unimpaired.git
 [submodule "vim/pack/plugins/stop/gnupg.vim"]
-	path = vim/pack/plugins/stop/gnupg.vim
+	path = vim/pack/plugins/all/gnupg.vim
 	url = https://github.com/vim-scripts/gnupg.vim
