@@ -80,3 +80,6 @@
 [submodule "vim/pack/tpope/start/unimpaired"]
 	path = vim/pack/plugins/stop/unimpaired
 	url = https://github.com/tpope/vim-unimpaired.git
+[submodule "vim/pack/plugins/stop/gnupg.vim"]
+	path = vim/pack/plugins/stop/gnupg.vim
+	url = https://github.com/vim-scripts/gnupg.vim
