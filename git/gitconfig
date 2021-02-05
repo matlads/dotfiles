@@ -3,3 +3,5 @@
 	email = matlads@gmail.com
 [pull]
 	rebase = false
+[core]
+	fileMode = false
