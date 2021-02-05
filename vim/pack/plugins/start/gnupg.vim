@@ -1,1 +1,1 @@
-../stop/gnupg.vim
+../all/gnupg.vim
