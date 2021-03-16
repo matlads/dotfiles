@@ -13,14 +13,11 @@
 	path = vim/pack/plugins/all/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
 [submodule "vim/pack/plugins/start/vim-airline"]
-	path = vim/pack/plugins/start/vim-airline
+	path = vim/pack/plugins/all/vim-airline
 	url = https://github.com/vim-airline/vim-airline
 [submodule "vim/pack/plugins/start/vim-gitgutter"]
 	path = vim/pack/plugins/all/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter
-[submodule "vim/pack/plugins/start/ctrlp.vim"]
-	path = vim/pack/plugins/all/ctrlp.vim
-	url = https://github.com/kien/ctrlp.vim
 [submodule "vim/pack/plugins/start/ale"]
 	path = vim/pack/plugins/all/ale
 	url = https://github.com/w0rp/ale
@@ -83,3 +80,9 @@
 [submodule "vim/pack/plugins/stop/gnupg.vim"]
 	path = vim/pack/plugins/all/gnupg.vim
 	url = https://github.com/vim-scripts/gnupg.vim
+[submodule "vim/pack/plugins/all/vim-devicons"]
+	path = vim/pack/plugins/all/vim-devicons
+	url = https://github.com/ryanoasis/vim-devicons.git
+[submodule "vim/pack/plugins/all/nerdtree-buffer-ops"]
+	path = vim/pack/plugins/all/nerdtree-buffer-ops
+	url = https://github.com/PhilRunninger/nerdtree-buffer-ops
