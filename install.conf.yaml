@@ -10,16 +10,13 @@
     ~/.psqlrc: postgresql/psqlrc
     ~/.gitconfig: git/gitconfig
     ~/.config/beets/config.yaml: beets/config.yaml
+    ~/.config/i3/config: i3/config
     ~/.config/youtube-dl/config: youtube-dl/config
-    ~/.irssi/config: irssi/config
     ~/.todo-txt: todo-txt
     ~/.opensubtitles_downloader: opensubtitles_downloader
     ~/.rtorrent.rc: rtorrent.rc
     ~/.screenrc: screenrc
-    ~/.mutt/muttrc: mutt/muttrc
-    ~/.mutt/gpg.rc: mutt/gpg.rc
-    ~/.mutt/macros: mutt/macros
-    ~/.mutt/mailcap: mutt/mailcap
+    ~/.mutt: mutt
     ~/.signature:  signatures/afriadd.signature
     ~/.signatures: signatures
     ~/.bash-git-prompt: bash/bash-git-prompt
@@ -36,6 +33,7 @@
     - ~/Work/ebs
     - ~/Work/andela
     - ~/.config/beets
+    - ~/.config/i3
     - ~/.config/youtube-dl
     - ~/.irssi
     - ~/.local/bin
