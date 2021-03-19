@@ -162,7 +162,7 @@ channels = (
   { name = "#netfuze"; chatnet = "NetFuze"; autojoin = "No"; },
   { name = "#oftc"; chatnet = "OFTC"; autojoin = "No"; },
   { name = "silc"; chatnet = "SILC"; autojoin = "No"; },
-  { name = "#ebooks"; chatnet = "IRCHighway"; autojoin = "yes"; }
+  { name = "#ebooks"; chatnet = "IRCHighway"; autojoin = "yes"; },
   { name = "#tv-hub"; chatnet = "IRCHighway"; autojoin = "yes"; }
 );
 
@@ -330,6 +330,7 @@ settings = {
     dcc_autoget = "yes";
     dcc_autoresume = "yes";
     dcc_download_path = "~/Downloads";
+    dcc_autoaccept_lowports = "yes";
   };
   "perl/core/scripts" = {
     twitter_usernames = "matlads";
