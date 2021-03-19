@@ -86,3 +86,6 @@
 [submodule "vim/pack/plugins/all/nerdtree-buffer-ops"]
 	path = vim/pack/plugins/all/nerdtree-buffer-ops
 	url = https://github.com/PhilRunninger/nerdtree-buffer-ops
+[submodule "vim/pack/plugins/all/ctrlp.vim"]
+	path = vim/pack/plugins/all/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim
