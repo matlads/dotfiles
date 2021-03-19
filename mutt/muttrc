@@ -1,0 +1,22 @@
+# default
+set editor = vim
+set charset = UTF-8
+set signature = "~/.signature"
+set realname = "Martin Atukunda"
+set send_charset="utf-8"
+set header_cache = "~/.cache/mutt/"
+set message_cachedir = "~/.cache/mutt/"
+set certificate_file = "~/.mutt/certificates"
+
+bind pager j next-line
+bind pager k previous-line
+
+unset use_domain        # because joe@localhost is just embarrassing
+
+
+source ~/.mutt/gpg.rc
+
+source ~/.mutt/profile.active
+
+# macros to invoke a profile
+macro	index	<F10>	"!muttprofile\n:source ~/.mutt/profile.active\n" "Call muttprofile and load profile"

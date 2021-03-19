@@ -1,0 +1,33 @@
+# ================  IMAP ====================
+set imap_user = matlads@gmail.com
+set imap_pass = "eqmlqlewshrhgdzw"
+set folder = "imaps://imap.gmail.com/"
+set spoolfile = "+INBOX"
+set record="+[Gmail]/Sent Mail"
+set postponed="+[Gmail]/Drafts"
+set trash="+[Gmail]/Trash"
+#set index_format="%4C %Z %{%b %d} %-15.15L (%4l) %s"
+mailboxes = $spoolfile
+
+#========== IMAP params ==========
+
+# ================  SMTP  ====================
+set smtp_url = "smtp://matlads@smtp.gmail.com:587/"
+set smtp_pass = $imap_pass
+set ssl_starttls = yes # Require encrypted connection
+set ssl_force_tls = yes
+#set abort_nosubject = no
+#set mail_check = 60
+#set timeout = 10
+#set copy = yes
+
+# Sender, email address, and sign-off line must match
+set from = "matlads@gmail.com"
+set use_from = yes
+
+alias laura Laura Musoke <laura.elle@outlook.com>
+
+set mailcap_path="~/.mutt/mailcap"
+auto_view text/html
+alternative_order text/plain text/html
+set signature = "~/.signatures/gmail"

@@ -1,0 +1,35 @@
+#========== IMAP =======================
+set imap_user = "martin.atukunda@afriadd.com"
+set imap_pass = "mpqaSiKH"
+set folder = "imaps://mail.afriadd.com/"
+set spoolfile = "+INBOX"
+set record = "+INBOX/Sent"
+set postponed = "+INBOX/Drafts"
+set trash = "+INBOX/Trash"
+# set index_format
+mailboxes = $spoolfile
+
+#========== IMAP params =================
+set imap_passive
+set imap_check_subscribed
+set mail_check=60
+set timeout=10
+set net_inc=5
+
+#========== SMTP ===================
+set smtp_url = "smtps://martin.atukunda@afriadd.com:mpqaSiKH@mail.afriadd.com"
+set smtp_pass = "mpqaSiKH"
+set ssl_starttls = yes # Require encrypted connection
+set ssl_force_tls = yes
+set abort_nosubject = no
+set mail_check = 60
+set timeout = 10
+set copy = yes
+
+# Mutt sender profile: gmail
+set from = "matlads@afriadd.com"
+set use_from = yes
+
+auto_view text/html
+alternative_order text/plain text/html
+set signature = "~/.signatures/afriadd.signature"
