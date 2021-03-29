@@ -89,3 +89,9 @@
 [submodule "vim/pack/plugins/all/ctrlp.vim"]
 	path = vim/pack/plugins/all/ctrlp.vim
 	url = https://github.com/ctrlpvim/ctrlp.vim
+[submodule "vim/pack/plugins/all/vim-mutt-aliases"]
+	path = vim/pack/plugins/all/vim-mutt-aliases
+	url = https://github.com/Konfekt/vim-mutt-aliases
+[submodule "vim/pack/plugins/all/vim-autoformat"]
+	path = vim/pack/plugins/all/vim-autoformat
+	url = https://github.com/Chiel92/vim-autoformat
