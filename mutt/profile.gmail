@@ -24,7 +24,6 @@ set ssl_force_tls = yes
 # Sender, email address, and sign-off line must match
 set from = "matlads@gmail.com"
 set use_from = yes
-set mailcap_path="~/.mutt/mailcap"
 auto_view text/html
 alternative_order text/plain text/html
 set signature = "~/.signatures/gmail"
