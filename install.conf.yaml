@@ -20,6 +20,7 @@
     ~/.signature:  signatures/afriadd.signature
     ~/.signatures: signatures
     ~/.bash-git-prompt: bash/bash-git-prompt
+    ~/.bash_functions.sh: bash/functions.sh
     ~/.local/bin/batstatus: batstatus
     ~/.pyenv: pyenv
     ~/.ctags: ctags
